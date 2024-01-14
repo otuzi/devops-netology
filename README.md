@@ -61,13 +61,11 @@
 3. На одном из следующих блоков вы будете изучать `Terraform`, давайте сразу создадим соотвествующий каталог `terraform` и внутри этого каталога — файл `.gitignore` по примеру: https://github.com/github/gitignore/blob/master/Terraform.gitignore.  
 4. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
    <img width="736" alt="Screenshot 2024-01-14 at 21 18 32" src="https://github.com/otuzi/devops-netology/assets/61628386/f568ad36-3045-498d-899f-c3d0581ddf23">
+
    Не будут добавлены в репозиторий файлы которые находятся внутри папки .terraform:
-   **/.terraform/*
-   а также:
+   **/.terraform/*, а также:
    *.tfstate
-   *.tfstate.*
-   
-   а также файлы логов:
+   *.tfstate.*, а также файлы логов:
    crash.log
    crash.*.log
 
