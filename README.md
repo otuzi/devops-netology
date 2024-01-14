@@ -11,41 +11,43 @@
 2. Создайте публичный репозиторий, который будете использовать дальше на протяжении всего курса, желательное с названием `devops-netology`.
    Обязательно поставьте галочку `Initialize this repository with a README`. 
    
-    <img width="976" alt="Screenshot 2024-01-13 at 20 55 02" src="https://github.com/otuzi/devops-netology/assets/61628386/e6875588-d632-4f86-bc16-192d8205f093">
+   <img width="976" alt="Screenshot 2024-01-13 at 20 55 02" src="https://github.com/otuzi/devops-netology/assets/61628386/88731587-d7ea-4b2c-adfb-6f1f17d55e8d">
 
-    
 3. Создайте [авторизационный токен](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) для клонирования репозитория.
-   <img width="1150" alt="Screenshot 2024-01-13 at 21 01 45" src="https://github.com/otuzi/devops-netology/assets/61628386/ee35bd50-5b80-4e1b-99da-555083413972">
+   <img width="1150" alt="Screenshot 2024-01-13 at 21 01 45" src="https://github.com/otuzi/devops-netology/assets/61628386/9fbf3e78-8d02-4c8d-9b0e-a845df904819">
 
 5. Склонируйте репозиторий, используя протокол HTTPS (`git clone ...`).
  
-    <img width="1160" alt="Screenshot 2024-01-13 at 21 04 13" src="https://github.com/otuzi/devops-netology/assets/61628386/fce715a4-94c3-4921-80e3-f44e6e6dfa5f">
+   <img width="1160" alt="Screenshot 2024-01-13 at 21 04 13" src="https://github.com/otuzi/devops-netology/assets/61628386/47e3ed87-8bbb-4eba-9d90-db5ed0c8aa9a">
 
 6. Перейдите в каталог с клоном репозитория (`cd devops-netology`).
-   <img width="645" alt="Screenshot 2024-01-13 at 21 08 38" src="https://github.com/otuzi/devops-netology/assets/61628386/35f9660c-9228-4026-935e-3893d5eb35a4">
+   <img width="645" alt="Screenshot 2024-01-13 at 21 08 38" src="https://github.com/otuzi/devops-netology/assets/61628386/f5e72d52-8472-46ac-a6aa-e37449d173bc">
 
 8. Произведите первоначальную настройку Git, указав своё настоящее имя, чтобы нам было проще общаться, и email (`git config --global user.name` и `git config --global user.email johndoe@example.com`).
-   <img width="626" alt="Screenshot 2024-01-14 at 20 10 46" src="https://github.com/otuzi/devops-netology/assets/61628386/752b68fa-2d49-42d1-9ccc-8235efa38bda">
+   <img width="626" alt="Screenshot 2024-01-14 at 20 10 46" src="https://github.com/otuzi/devops-netology/assets/61628386/16cf70e0-d165-424e-a495-8dfb40f05bd5">
 
 10. Выполните команду `git status` и запомните результат.
     <img width="673" alt="Screenshot 2024-01-14 at 20 19 00" src="https://github.com/otuzi/devops-netology/assets/61628386/0f7069e8-1190-420a-a3e1-c4ddeb3675d3">
 
 12. Отредактируйте файл `README.md` любым удобным способом, тем самым переведя файл в состояние `Modified`.
 14. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага.
-    <img width="623" alt="Screenshot 2024-01-14 at 20 20 28" src="https://github.com/otuzi/devops-netology/assets/61628386/5c9cb413-6c15-461c-8265-38cad0a826a7">
+    <img width="623" alt="Screenshot 2024-01-14 at 20 20 28" src="https://github.com/otuzi/devops-netology/assets/61628386/2ed14b9f-f3ef-4a02-b01f-320860c90541">
 
 16. Теперь посмотрите изменения в файле `README.md`, выполнив команды `git diff` и `git diff --staged`.
-    <img width="1187" alt="Screenshot 2024-01-14 at 20 23 04" src="https://github.com/otuzi/devops-netology/assets/61628386/c7fa06e3-4fae-45b1-afd4-df9f660ce166">
+    <img width="1187" alt="Screenshot 2024-01-14 at 20 23 04" src="https://github.com/otuzi/devops-netology/assets/61628386/20231455-c221-41a2-9863-8e2937d59f86">
+
 
 18. Переведите файл в состояние `staged` (или, как говорят, просто добавьте файл в коммит) командой `git add README.md`.
-    <img width="712" alt="Screenshot 2024-01-14 at 20 26 22" src="https://github.com/otuzi/devops-netology/assets/61628386/30bd51b0-30bf-4963-b579-59d0e7c2d6fa">
+    <img width="712" alt="Screenshot 2024-01-14 at 20 26 22" src="https://github.com/otuzi/devops-netology/assets/61628386/bcd5e328-17af-478b-826a-5af3e186633a">
 
 20. И ещё раз выполните команды `git diff` и `git diff --staged`. Поиграйте с изменениями и этими командами, чтобы чётко понять, что и когда они отображают.
 22. Теперь можно сделать коммит `git commit -m 'First commit'`.
-    <img width="737" alt="Screenshot 2024-01-14 at 20 27 12" src="https://github.com/otuzi/devops-netology/assets/61628386/c0bc2d30-61fc-44ce-b360-30b180ca7209">
+    <img width="737" alt="Screenshot 2024-01-14 at 20 27 12" src="https://github.com/otuzi/devops-netology/assets/61628386/e18ad3a8-bbb5-45a2-870c-886093b23d3f">
+
 
 24. И ещё раз посмотреть выводы команд `git status`, `git diff` и `git diff --staged`.
-    <img width="500" alt="Screenshot 2024-01-14 at 20 28 14" src="https://github.com/otuzi/devops-netology/assets/61628386/df3d8b21-61f7-4380-8693-a1d276c9520a">
+    <img width="500" alt="Screenshot 2024-01-14 at 20 28 14" src="https://github.com/otuzi/devops-netology/assets/61628386/50b7942f-d6b7-4d3a-a110-73518e716950">
+
 
 
 ### Создание файлов `.gitignore` и второго коммита
