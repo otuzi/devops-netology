@@ -87,4 +87,7 @@
 5. Закоммитьте результат работы с комментарием `Moved and deleted`.
 <img width="669" alt="Screenshot 2024-01-14 at 21 35 37" src="https://github.com/otuzi/devops-netology/assets/61628386/641ab734-3295-4e06-8feb-44b03031a7e9">
 
+<img width="1121" alt="Screenshot 2024-01-14 at 21 35 53" src="https://github.com/otuzi/devops-netology/assets/61628386/af61db04-cd4a-4cf3-aa0c-b4315115f205">
+
+
 ----
