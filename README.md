@@ -52,11 +52,28 @@
 
 ### Создание файлов `.gitignore` и второго коммита
 
-1. Создайте файл `.gitignore` (обратите внимание на точку в начале файла), проверьте его статус сразу после создания. 
-1. Добавьте файл `.gitignore` в следующий коммит (`git add...`).
-1. На одном из следующих блоков вы будете изучать `Terraform`, давайте сразу создадим соотвествующий каталог `terraform` и внутри этого каталога — файл `.gitignore` по примеру: https://github.com/github/gitignore/blob/master/Terraform.gitignore.  
-1. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
-1. Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
+1. Создайте файл `.gitignore` (обратите внимание на точку в начале файла), проверьте его статус сразу после создания.
+   <img width="699" alt="Screenshot 2024-01-14 at 21 15 58" src="https://github.com/otuzi/devops-netology/assets/61628386/a39bc20c-af37-474c-a57b-b9969a9e5529">
+
+2. Добавьте файл `.gitignore` в следующий коммит (`git add...`).
+   <img width="714" alt="Screenshot 2024-01-14 at 21 16 31" src="https://github.com/otuzi/devops-netology/assets/61628386/168e2fb9-e6db-4fa6-8f03-b35b6df43038">
+
+3. На одном из следующих блоков вы будете изучать `Terraform`, давайте сразу создадим соотвествующий каталог `terraform` и внутри этого каталога — файл `.gitignore` по примеру: https://github.com/github/gitignore/blob/master/Terraform.gitignore.  
+4. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
+   <img width="736" alt="Screenshot 2024-01-14 at 21 18 32" src="https://github.com/otuzi/devops-netology/assets/61628386/f568ad36-3045-498d-899f-c3d0581ddf23">
+   Не будут добавлены в репозиторий файлы которые находятся внутри папки .terraform:
+   **/.terraform/*
+   а также:
+   *.tfstate
+   *.tfstate.*
+   
+   а также файлы логов:
+   crash.log
+   crash.*.log
+
+6. Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
+ <img width="633" alt="Screenshot 2024-01-14 at 21 21 40" src="https://github.com/otuzi/devops-netology/assets/61628386/4a3208a4-06ec-4add-ba0a-cb3f9dce7b62">
+
 
 ### Эксперимент с удалением и перемещением файлов (третий и четвёртый коммит)
 
